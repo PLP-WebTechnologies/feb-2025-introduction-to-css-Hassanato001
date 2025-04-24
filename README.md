@@ -39,12 +39,13 @@ Happy Coding! 💻✨
     <meta name="author" content="Abu Musa">
     <meta name="robots" content="index, follow">
 
-        <title>signup</title>
+ <title>signup</title>
+ 
 <style>
 table ,tr, th, td { 
    border: 3px solid black ; 
    border-collapse: collapse;  
-   text-align:center ;
+   text-align: center ;
    padding: 10px ;
         }
 </style>
@@ -56,7 +57,7 @@ table ,tr, th, td {
    <nav>
  
 
-     <a href="#images"> <li> Implementing HTML5 images </li></a>  
+   <a href="#images"> <li> Implementing HTML5 images </li></a>  
      <a href="#lists"> <li> Implementing HTML5 lists</li></a> 
      <a href="#tables"> <li> Implementing HTML5 tables</li></a>
      <a href="#forms"> <li> Implementing HTML5 forms and input types </li></a>     
@@ -100,7 +101,7 @@ table ,tr, th, td {
    <section id="tables">
    <h2>Implementing HTML5 tables</h2>
 <table  >
-    <thead>
+   <thead>
         <tr>
             <th> S/N</th>
             <th> Surn Name</th>
@@ -201,19 +202,11 @@ table ,tr, th, td {
                     <input type="submit" value="SIGNUP" name="submit" id="submit">
                 </p> 
             </fieldset>      
-
    </form>
    </section>
-
-
 </main>
-
-
 <footer>
-   
-
-
-
+ 
 </footer>    
 </body>
 
@@ -231,11 +224,8 @@ body {
     font-weight: normal;
     text-align: center;
     position: relative;
-    padding: 12px 15px  ;
-     
+    padding: 12px 15px  ;   
 }
-
-
 header {
     background-color: #1b273d; /* Green */
     padding: 20px;
